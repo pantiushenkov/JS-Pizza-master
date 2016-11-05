@@ -1,0 +1,479 @@
+
+@orange:#ea862e;
+@grey:#a1a1a1;
+
+    body{
+    display: block;
+    }
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    min-width: 594px;
+    padding-top: 80px;
+    
+    .left-panel {
+    padding-left: 30px;
+    margin: auto;
+    max-width: 1354px;
+    padding-right: 360px;
+    
+    .page-title {
+        text-align: center;
+    
+    .count-title {
+        font-size: 30px;
+        font-weight: 500;
+        }
+     .pizza-count {
+        vertical-align: super;
+        }
+    }
+    
+    ul {
+    display: inline-block;
+    }
+
+    li {
+    float: left;
+    }
+
+    li.active>a{
+    background-color: #ec890e!important;
+    }
+
+    .title {
+    color:@orange;
+    font-size: 30px;
+    }
+
+    .caption {
+    padding: 9px;
+    }
+
+    .type {
+    font-size: 12px;
+    color:#a3a0a0;
+    }
+
+  .grn {
+  font-size: 14px;
+  float: right;
+  }
+
+    .thumbnail {
+    display: block;
+    border: 1px solid #ddd;
+    }
+
+    .pizza-card {
+    position: relative;
+    padding-top: 30px;
+    }
+
+    .all-pizza-type {
+    text-align: center;
+    }
+
+
+
+    }
+    .right-panel {
+    position: fixed!important;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 330px;
+    z-index: 1031;
+    display: box;
+    display: -webkit-box;
+    background: white;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    margin-left: 20px;
+    box-shadow: rgba(0,0,0,.2) -3px 3px 10px;
+    min-width: 330px;
+    height: 100%;
+    padding-top: 35px;
+    
+        .all-orders {
+        margin-top: 15px;
+        background-color: #F5F5F5;
+        -webkit-box-flex:1;
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        }
+        .r1 , .r2 ,.r3{
+        display: block!importants;
+        box-sizing: content-box;
+        }
+        .r1 {
+        line-height: 17px;
+        padding-bottom: 13px;
+        width: 100%;
+
+        }
+
+        .r2 {
+        height:100%;
+        }
+
+
+        .orders-title {
+        box-sizing: border-box;
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 15px;
+        }
+
+        .orders-clear {
+        float: right;
+        padding-right: 15px;
+        font-size: 10px;
+        color: rgba(0,0,0,.5);
+            cursor: pointer;
+        }
+
+        .pizza-aside {
+        position: absolute;
+        right: -48px;
+        max-width: 96px;
+        max-height: 96px;
+        }
+
+        .order-title {
+        font-size: 20px;
+        color:#ec890e;
+        }
+
+        .order {
+        position: relative;
+        overflow: hidden;
+        padding: 20px 61px 10px 24px; 
+        border-bottom: 1px solid rgba(0,0,0,.1);
+        }
+
+        .diagonal-size {
+        padding-right: 15px;
+        }
+
+        .order-size {
+        margin:6px 0 8px; 
+        }
+
+        .btn-circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        }
+
+        .glyphicon {
+        top:5px;
+        }
+
+        .remove-icon {
+        color:#ec890e;
+        }
+
+        .price {
+        padding-right: 15px;
+        }
+
+        .order-pizza-count {
+        color: black;
+        font-weight: 700;
+        font-size: 14px;
+        }
+
+        .count-clear {
+        margin-left: 25px;
+            padding: 5px;
+        }
+
+        .sum-title {
+
+        font-weight: 700;
+        font-size: 15px;
+        margin-bottom: 15px;
+        }
+
+        .order-state {
+        padding: 15px;
+        margin-top:-10px;
+        }
+
+        .btn-order {
+        width: 100%;
+        }
+
+        .make-order {
+        padding: 20px;
+        }
+
+        .sum-total {
+        padding-right: 10px;
+        font-weight: 700;
+        font-size: 20px;
+        }
+
+  
+    }
+}
+
+.navbar-fixed-top {
+    .nav-bar-top-row{
+    margin-top: 5px;
+    padding-bottom: 4px;
+    top: 5px;
+    padding-left:130px;
+    width: 100%;
+    
+    .navbar-top-items{
+    color:@grey;
+    width: 100%;
+    border-bottom: 1px solid @grey;
+    padding-bottom: 10px; 
+        .phone {
+            font-size: 20px;
+        }
+        .work{
+            font-size: 14px; 
+        }
+
+        .delivery {
+            font-size: 16px;
+        }
+
+        .sign-in-btn {
+        float: right;
+        text-align: center;
+        }
+
+    }
+
+    }
+    .navbar-top-item:not(.btn .pizza){
+    color:#a1a1a1;
+    }
+    .navbar-top-item {
+    display: inline-block;
+    margin-left:20px;
+    }
+    
+    .navbar-down-row {
+    margin-left:130px;
+    }
+    .navbar-icon {
+        padding-left: 9px;
+        position: fixed;
+        .rect{
+            height: 90px;
+            width: 100px;
+            padding: 10px;
+            padding-top: 15px;
+            background-color: @orange;
+            text-align: center;
+            border-left: 1px solid #d16200;
+            border-right: 1px solid #d16200;
+            
+            .title2{
+                color: white;
+                font-size: 25px;
+            }
+            
+            .title1{
+                font-size: 19px;
+                color: white;
+            }  
+            img{
+            margin-left: -11.5px;
+            margin-top: 9px; 
+            }
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .top-panel{
+        padding-right: 280px;
+    }
+    .right-panel {
+        min-width: 280px;
+        width: 280px;
+        }
+       .sign-in-btn {
+        margin-top: 15px;
+       }
+        .nav-bar-top-row{
+        padding-left: 115px;
+        }
+        .navbar-down-row{
+        display: none;
+        }
+    
+    
+     .top-panel, .navbar-top-row ,.phone {
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+        margin: 0;
+    }    
+}
+@media (max-width: 640px){
+    .main-container{
+    padding-top:105px;
+    }
+}
+
+@media (max-width: 581px){
+    .main-container{
+    padding-top:135px;
+    }
+}
+@media (max-width: 546px){
+    .main-container{
+    padding-top:165px;
+    }
+}
+.badge {
+        color: white;
+        display: inline-block;
+        background-color: #ec890e;
+        padding: 3px 7px;
+        border-radius: 10px;
+        line-height: 1;
+        font-size: 12px;
+        vertical-align: middle;
+        margin-top: -2px;
+        }
+
+.top-panel{
+    position: fixed;
+    background-color: #000000;
+    padding-right: 350px;
+    margin-bottom: 20px;
+}
+
+    .btn-warning {
+        border-color: @orange;
+    }
+
+    .pizza {
+    color: white;
+    padding-top: 5px;
+    font-size: 16px;
+    }
+
+    a {
+    text-decoration: none;
+    color: #ec890e;
+    }
+
+
+.discount-panel {
+    position: fixed;
+    bottom: 0;
+    background: @orange;
+    z-index: 99;
+    width: 100px;
+    padding: 10px;
+    color: #fff;
+    left:11px;
+    left: 9px;
+    border-left: 1px solid @orange;
+    border-right: 1px solid @orange;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.discount-panel .discount-title {
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px dotted @orange;
+    margin-bottom: 7px;
+    padding-bottom: 3px;
+}
+
+.discount-panel .discount-text {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.discount-before {
+    position: absolute;
+    width: 100px;
+    height: 11px;
+    top: -11px;
+    left: -0.5px;
+    background-image: url(../images/discount.svg);
+    background-size: 100px 11px;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    
+}
+.top-discount {
+    top:90px;
+    left:9px;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.pizza-button :hover{
+    color: @orange;
+}
+
+.pizza-label {
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+.pizza-small {
+    text-align: center;
+}
+
+.pizza-big {
+    text-align: center;
+}
+
+.description {
+    height: 65px;
+    overflow: hidden;
+}
+
+.an_order {
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    color: grey;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+}
+
+.total {
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+}
+.none{
+    display: none;
+}
+
+.no-orders {
+    font-size: 16px;
+    color: #4e4e4e;
+    text-align: center;
+    padding-top: 50px;
+}
+.not-allowed{
+cursor: not-allowed;
+}
+
